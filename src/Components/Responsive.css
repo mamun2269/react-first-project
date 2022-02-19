@@ -1,0 +1,82 @@
+@media (max-width: 767px){
+    .navbar_area{
+        position: relative;
+    }
+    .main_menu{
+        display: none;
+    }
+    .show{
+        position: absolute;
+        content: '';
+        top: 100%;
+        width: 100vw;
+        height:100vh;
+        left: 0;
+        z-index: 99;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        background: linear-gradient( rgba(3, 0, 14, 1), rgba(1, 0, 8, 0.9));
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        transition: all 0.8s ease;
+    }
+    .show .nav_item{
+        display: block;
+    }
+    .show .nav_item .nav_link{
+        color: #fff;
+        display: block;
+        padding: 10px 15px;
+        font-size: 1.1em;
+        font-weight: 600;
+        transition: all 0.8s ease;
+    }
+    .show .nav_item .nav_link:hover{
+        color: #ce0f4f;
+    }
+
+    
+    .sign_area{
+        display: none;
+    }
+    .mobile_menu{
+        height: 33px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        cursor: pointer;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: 3px solid rgb(87, 5, 5);
+    }
+    .mobile_menu i{
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .hero_content h2{
+        font-size: 35px;
+    }
+    .hero_content p{
+        font-size: 15px;
+    }
+    .common_text h3 span {
+        font-size: 30px;
+    }
+    .common_frame{
+        display: none;
+    }
+
+    .discover_img{
+        display: none;
+    }
+
+    .service_section {
+        height: auto;
+        padding: 80px 0;
+    }
+    .service_card{
+        margin-bottom: 20px;
+    }
+}
